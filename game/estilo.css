@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+    background: brown;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 20px rgb(217, 255, 0);
+}
+.tablero{
+    background: rgb(192, 218, 255);
+    width: 1400px;
+    height: 900px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 1em;
+    border: 4px double black;
+}
+.base{
+    background: rgb(50, 28, 16);
+    width: 50px;
+    margin:20px;
+    margin-left: 100px;
+    border: black solid;
+}
+#base1{
+    width: 1200px;
+    height: 60px;
+    margin-top: 800px;
+    position: absolute;
+    z-index: 1;
+}
+.palo_1,
+.palo_2,
+.palo_3{
+    background: rgb(241, 234, 143);
+    width:50px;
+    height: 280px;
+    margin:90px;
+    margin-top: 580px;
+    border: none;
+    border-radius: 1em;
+    margin-left: 250px;
+    text-shadow: hidden;
+    position:static;
+    
+    
+}
+.disco_1{
+    background: red;
+    width: 300px;
+    height: 40px;
+    margin-top: 760px;
+    margin-left: 129px;
+    position: absolute;
+    border-radius: 1em;
+}
+.disco_2{
+    background: rgb(255, 136, 0);
+    width: 260px;
+    height: 40px;
+    margin-top: 720px;
+    margin-left: 145px;
+    position: absolute;
+    border-radius: 1em;
+}
+.disco_3{
+    background: rgb(0, 255, 119);
+    width: 220px;
+    height: 40px;
+    margin-top: 680px;
+    margin-left: 165px;
+    position: absolute;
+    border-radius: 1em;
+}
+i{
+    cursor: pointer;
+}
+
+.nuevo,
+.pausa,
+.terminar{
+    width: 190px;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2em;
+    background: rgb(105, 105, 105);
+    justify-items: center;
+    font-size: 30px;
+}
+.nuevo:hover,
+.pausa:hover,
+.terminar:hover{
+    color: rgb(0, 255, 0);
+}
+
+.nuevo{
+    margin-left: 550px;
+    
+}
+
+    
